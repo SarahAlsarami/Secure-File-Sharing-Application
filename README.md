@@ -1,17 +1,18 @@
 # Secure-File-Sharing-Application
 In this project we design a secure file sharing application. Every new user will have a file  that includes (privet and public key, username, and encrypted password). the application  encrypts the messages after it was written by the sender and saves it encrypted in a file to  make sure no one can see the content rather than the receiver. The receiver can decrypt the  message using his privet key
 
-## Sender gui
+## Sender GUI
 He sends the message encrypted and puts his signature on it with his private key
 
 ![App Screenshot](https://l.top4top.io/p_2365v2v381.png)
 
-## Recipient gui
+## Recipient GUI
 
 ![App Screenshot](https://a.top4top.io/p_2365o59rc2.png)
 
 #### When you finish reading the message, all files related to it will be deleted, and this achieves the principle of security
 ![App Screenshot](https://a.top4top.io/p_23655bkup1.png)
+
 ## Approach and steps to implementation
  1- User register to the application by entering username and password.\
 2- System open new file, storing user’s name and his encrypted password (use caesar 
