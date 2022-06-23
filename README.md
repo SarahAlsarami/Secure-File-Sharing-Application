@@ -132,7 +132,7 @@ def Decrypt(Encrypted_file):
 ## Prepared By 
 - Sarah Abdullah Alsarami    samalsarami@sm.imamu.edu.sa
 - Asia Omar Nasser alrajeh      aonalrajeh@sm.imamu.edu.sa
--Hajar abdullaziz Abdullah Aljassar  haaaljassar@sm.imamu.edu.sa
+- Hajar abdullaziz Abdullah Aljassar  haaaljassar@sm.imamu.edu.sa
 ## References 
 - [Semple GUI python ](https://www.simplifiedpython.net/python-gui-login/)
 - [Semple GUI python ](https://www.tutussfunny.com/login-form-using-python-tkinter/)
