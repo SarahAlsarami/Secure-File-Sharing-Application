@@ -10,7 +10,7 @@ He sends the message encrypted and puts his signature on it with his private key
 
 ![App Screenshot](https://a.top4top.io/p_2365o59rc2.png)
 
-When you finish reading the message, all files related to it will be deleted, and this achieves the principle of security
+#### When you finish reading the message, all files related to it will be deleted, and this achieves the principle of security
 ![App Screenshot](https://a.top4top.io/p_23655bkup1.png)
 ## Approach and steps to implementation
  1- User register to the application by entering username and password.\
@@ -131,8 +131,8 @@ def Decrypt(Encrypted_file):
 
 ## Prepared By 
 - Sarah Abdullah Alsarami    samalsarami@sm.imamu.edu.sa
-- Asia Omar Nasser alrajeh      aonalrajeh@sm.imamu.edu.sa
-- Hajar abdullaziz Abdullah Aljassar  haaaljassar@sm.imamu.edu.sa
+- Asia Omar alrajeh      aonalrajeh@sm.imamu.edu.sa
+- Hajar abdullaziz Aljassar  haaaljassar@sm.imamu.edu.sa
 ## References 
 - [Semple GUI python ](https://www.simplifiedpython.net/python-gui-login/)
 - [Semple GUI python ](https://www.tutussfunny.com/login-form-using-python-tkinter/)
