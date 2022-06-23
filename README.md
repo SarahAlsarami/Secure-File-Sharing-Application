@@ -129,4 +129,9 @@ def Decrypt(Encrypted_file):
     prsent_text(new_file)
 ```
 
-
+## References 
+- [Semple GUI python ](https://www.simplifiedpython.net/python-gui-login/)
+- [Semple GUI python ](https://www.tutussfunny.com/login-form-using-python-tkinter/)
+- [Caesar cipher algorithm](https://stackoverflow.com/questions/8886947/caesar-cipher-function-in-python)
+- [AES algorithms]( https://www.youtube.com/watch?app=desktop&v=F2av7TaVc5Q)
+- [RSA algorithms]( https://www.section.io/engineering-education/rsa-encryption-and-decryption-in-python)
