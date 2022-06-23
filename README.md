@@ -1,0 +1,2 @@
+# Secure-File-Sharing-Application
+In this project we design a secure file sharing application. Every new user will have a file  that includes (privet and public key, username, and encrypted password). the application  encrypts the messages after it was written by the sender and saves it encrypted in a file to  make sure no one can see the content rather than the receiver. The receiver can decrypt the  message using his privet key
