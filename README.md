@@ -30,8 +30,8 @@ the encryption of the file using AES algorithm implemented in **Encrypt function
 the system decrypt the AES_key using RSA algorithm implemented in **D_RSA
 function** by using receiver’s private key, these decrypted AES_key used in the 
 decryption of the message using AES algorithm implemented in **Decrypt function**.
-## Run Locally
- Encrypt Function
+## Functions
+### Encrypt function
 
 ```bash
   def Encrypt(file_name, AES_key):
@@ -60,7 +60,7 @@ decryption of the message using AES algorithm implemented in **Decrypt function*
 
 ```
 
-E_RSA Function
+### E_RSA function
 
 ```bash
 def E_RSA(key, public_key):
@@ -68,7 +68,7 @@ def E_RSA(key, public_key):
 
 ```
 
-D_RSA Function
+### D_RSA function
 
 ```bash
 
@@ -81,7 +81,7 @@ def D_RSA(ciphertext, key):
         return False
 
 ```
-Decrypt Function
+### Decrypt function
 
 ```bash
   
