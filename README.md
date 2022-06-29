@@ -14,25 +14,26 @@ He sends the message encrypted and puts his signature on it with his private key
 ![App Screenshot](https://a.top4top.io/p_23655bkup1.png)
 
 ## Approach and steps to implementation
- 1- User register to the application by entering username and password.\
-2- System open new file, storing user’s name and his encrypted password (use caesar 
-cipher algorithm to encrypt the password).\
-3- System creates pair of keys -public key and private key- using RSA libraries and
-storing these keys in a file.\
-4- When user login into the application public key will appear in the home page.\
-5- User can choses from two options, if he wants to send a file will click “Send file” 
+1 -  User register to the application by entering username and password.
+
+2 -  System open new file, storing user’s name and his encrypted password (use caesar cipher algorithm to encrypt the password).
+
+3 - System creates pair of keys -public key and private key- using RSA libraries and storing these keys in a file.
+
+4 - When user login into the application public key will appear in the home page.
+
+5 - User can choses from two options, if he wants to send a file will click “Send file” 
 button, or if he wants to check is there any massage he has received? will click 
-“Inbox” button. \
-6- System creates a symmetric-key randomly using the random library, which used in 
-the encryption of the file using AES algorithm implemented in **Encrypt function.**\
-7- System encrypt the AES_key created in step 6 using RSA algorithm implemented in 
-**E_RSA function** by using receiver’s public key.\
-8- When the receiver wants to access a message he has received (encrypted message), 
-the system decrypt the AES_key using RSA algorithm implemented in **D_RSA
-function** by using receiver’s private key, these decrypted AES_key used in the 
-decryption of the message using AES algorithm implemented in **Decrypt function**.
+“Inbox” button. 
+
+6 - System creates a symmetric-key randomly using the random library, which used in the encryption of the file using AES algorithm implemented in **Encrypt function.**
+
+7 - System encrypt the AES_key created in step 6 using RSA algorithm implemented in 
+**E_RSA function** by using receiver’s public key.
+
+8 - When the receiver wants to access a message he has received (encrypted message), the system decrypt the AES_key using RSA algorithm implemented in **D_RSA function** by using receiver’s private key, these decrypted AES_key used in the decryption of the message using AES algorithm implemented in **Decrypt function**.
 ## Functions
-### Encrypt function
+#### Encrypt function
 
 ```bash
   def Encrypt(file_name, AES_key):
@@ -61,7 +62,7 @@ decryption of the message using AES algorithm implemented in **Decrypt function*
 
 ```
 
-### E_RSA function
+#### E_RSA function
 
 ```bash
 def E_RSA(key, public_key):
@@ -69,7 +70,7 @@ def E_RSA(key, public_key):
 
 ```
 
-### D_RSA function
+#### D_RSA function
 
 ```bash
 
@@ -82,7 +83,7 @@ def D_RSA(ciphertext, key):
         return False
 
 ```
-### Decrypt function
+#### Decrypt function
 
 ```bash
   
