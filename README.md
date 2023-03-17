@@ -8,10 +8,10 @@ In this project we design a secure file sharing application. Every new user will
 
 ## Recipient GUI
 
-![App Screenshot](https://a.top4top.io/p_2365o59rc2.png)
+![App Screenshot](https://k.top4top.io/p_2632rreqf3.png)
 
 #### When you finish reading the message, all files related to it will be deleted, and this achieves the principle of security
-![App Screenshot](https://a.top4top.io/p_23655bkup1.png)
+![App Screenshot](https://j.top4top.io/p_2632wxuov2.png)
 
 ## Approach and steps to implementation
 1 -  User register to the application by entering username and password.
